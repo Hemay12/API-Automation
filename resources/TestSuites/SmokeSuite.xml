@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Smoke Suite">
+    <test name="API TestCases">
+
+<!--        <classes>-->
+<!--            <class name="user_management.getUsers" />-->
+<!--            <class name="user_management.getPostmanEcho"></class>-->
+<!--            Instead of using all classes in package just write the package-->
+<!--        </classes>-->
+        
+        <packages>
+            <package name="user_management" />
+        </packages>
+
+<!--        Below is how groups get executed. For groups we have to also write class coz from which class we have to execute group.-->
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="Regression Suite" />-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>&ndash;&gt;-->
+        <!--            <class name="user_management.getUsers" />-->
+        <!--            <class name="user_management.getPostmanEcho"></class>-->
+        <!--        </classes>-->
+
+    </test>
+</suite>

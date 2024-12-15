@@ -1,0 +1,15 @@
+{
+  "username": "postman",
+  "password": "password",
+  "endpoint": "users",
+  "languages": [
+    "Java",
+    "JavaFX",
+    "Python"
+  ],
+  "contact": [
+    "email : hemay@gmail.com",
+    "city : AMD",
+    "state : GUJ"
+  ]
+}
