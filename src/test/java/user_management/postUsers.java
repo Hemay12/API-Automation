@@ -186,7 +186,7 @@ public class postUsers {
         String temperature = "30";
         List<String> list = new ArrayList<>();
         list.add("Java");
-        list.add("Pyhon");
+        list.add("Python");
 
         cityRequest cityRequests = new cityRequest();
         cityRequests.setName(name);
